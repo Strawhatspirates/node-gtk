@@ -1,0 +1,17 @@
+{
+  "name": "nodegtk",
+  "version": "0.0.1",
+  "description": "gtk wrapper for node linux",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "install": "node-gyp rebuild"
+  },
+  "author": "sathya narrayanan",
+  "license": "GPL v2",
+  "gypfile": true,
+  "homepage": "https://github.com/strawhatspirates/node-gtk",
+  "dependencies": {
+    "nan": "^1.3.0"
+  }
+}
